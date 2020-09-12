@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>repl.it</title>
+    <link rel="stylesheet preconnect prefetch" type="text/css" href="host/flightcss/beta.css">
+    <link rel="stylesheet preconnect prefetch" type="text/css" href="https://FlightCSS.foxglovedev.repl.co/theme.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <nav class="nav">
+      <a href="/"><img class="brand" rel="preconnect prefetch" src="icons/logo.webp"></img></a>
+      <input class="search" placeholder="Search"></input>
+    </nav>
+    <div class="main">
+      <button disabled class="button-primary" onclick="window.location= '#'">Primary-Disabled</button>
+      <button class="button-primary" onclick="window.location= '#'">Primary-Normal</button>
+      <button disabled class="button" onclick="window.location= '#'">Disabled</button>
+      <button class="button" onclick="window.location= '#'">Normal</button>
+      <ul>
+        <li>
+          <input id="c1" type="checkbox">
+          <label for="c1">Checkbox</label>
+        </li>
+        <li>
+          <input id="c2" type="checkbox" checked>
+          <label for="c2">Checkbox</label>
+        </li>
+        <li>
+          <input id="r1" type="radio" name="radio" value="1">
+          <label for="r1">Radio</label>
+        </li>
+        <li>
+          <input id="r2" type="radio" name="radio" value="2" checked>
+          <label for="r2">Radio</label>
+        </li>
+        <li>
+          <input id="s1" type="checkbox" class="switch">
+          <label for="s1">Switch</label>
+        </li>
+        <li>
+          <input id="s2" type="checkbox" class="switch" checked>
+          <label for="s2">Switch</label>
+        </li>
+      </ul>
+			<div class="progress" style="max-width: 100px;">
+				<div class="indeterminate" style="background-color: rgb(97,33,255);">
+				</div>
+			</div>
+    </div>
+  </body>
+</html>
